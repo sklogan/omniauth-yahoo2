@@ -8,6 +8,7 @@ require 'multi_json'
 module OmniAuth
   module Strategies
     class Yahoo < OmniAuth::Strategies::OAuth2
+	include OmniAuth::Strategy
 
       option :name, 'yahoo'
 

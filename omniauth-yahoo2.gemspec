@@ -1,9 +1,10 @@
 $:.push File.expand_path("../lib", __FILE__)
+require 'omniauth/yahoo/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "yahoo"
-  s.version     = '1.0.0'
+  s.name        = "omniauth-yahoo2"
+  s.version     = OmniAuth::Yahoo::VERSION
   s.authors     = ["sklogan"]
   s.email       = ["logan.senthilkumar@gmail.com"]
   s.homepage    = "https://github.com/sklogan/omniauth-yahoo2"
